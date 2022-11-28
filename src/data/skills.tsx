@@ -6,7 +6,8 @@ import python from "assets/images/skills/python.png";
 import postgres from "assets/images/skills/postgresql.png";
 import mysql from "assets/images/skills/mysql.png";
 import liferay from "assets/images/skills/liferay.png";
-import figma from "assets/images/skills/figma.png";
+import aws from "assets/images/skills/aws.png";
+import laravel from "assets/images/skills/laravel.png";
 
 export const skills = [
   {
@@ -49,15 +50,14 @@ export const skills = [
     image: mysql,
   },
   {
-    name: "Liferay",
-    description: "Java Based web-application platform",
-    link: "https://www.liferay.com/",
-    type: "middleware",
-    image: liferay,
+    name: "AWS",
+    link: "https://aws.amazon.com/",
+    image: aws,
+ 
   },
   {
-    name: "Figma",
-    link: "https://www.figma.com/",
-    image: figma,
-  },
+    name: 'Laravel',
+    link: 'https://laravel.com/',
+    image: laravel,
+  }
 ];

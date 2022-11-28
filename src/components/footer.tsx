@@ -30,7 +30,7 @@ const Footer = () => {
           },
         }}
       />
-      by bhanu
+      by Kushagra
     </Box>
   );
 };

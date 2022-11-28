@@ -1,27 +1,28 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaQuora } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import {SiLeetcode} from "react-icons/si";
 const siteConfig = {
-  copyright: `Copyright © ${new Date().getFullYear()} K Bhanu Pratap. All Rights Reserved.`,
+  copyright: `Copyright © ${new Date().getFullYear()} Kushagra Sharma. All Rights Reserved.`,
   author: {
-    name: "K Bhanu Pratap",
+    name: "Kushagra Sharma",
     accounts: [
       {
-        url: "https://github.com/Bpratap946",
+        url: "https://github.com/kushagra-18",
         label: "Github Account",
         type: "gray",
         icon: <FaGithub />,
       },
       {
-        url: "https://www.linkedin.com/in/bhanu-pratap-k/",
+        url: "https://www.linkedin.com/in/kushagra-18/",
         label: "LinkedIn Account",
         type: "linkedin",
         icon: <FaLinkedin />,
       },
       {
-        url: "https://www.quora.com/profile/Bhanu-Pratap-422",
-        label: "Quora Account",
+        url: "https://leetcode.com/giantkillerkushagra/",
+        label: "Leetcode Account",
         type: "red",
-        icon: <FaQuora />,
+        icon: <SiLeetcode />,
       },
     ],
   },
